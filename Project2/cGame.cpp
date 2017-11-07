@@ -7,7 +7,7 @@ cGame.cpp
 
 cGame* cGame::pInstance = NULL;
 static cTextureMgr* theTextureMgr = cTextureMgr::getInstance();
-
+// a new commemt
 
 /*
 =================================================================================
