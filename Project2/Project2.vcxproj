@@ -111,6 +111,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="asteroidsGame.h" />
+    <ClInclude Include="cAsteroid.h" />
+    <ClInclude Include="cBkGround.h" />
+    <ClInclude Include="cBullet.h" />
+    <ClInclude Include="cGame.h" />
+    <ClInclude Include="cRocket.h" />
+    <ClInclude Include="cSDL2WNDManager.h" />
+    <ClInclude Include="cSprite.h" />
+    <ClInclude Include="cTexture.h" />
+    <ClInclude Include="cTextureMgr.h" />
+    <ClInclude Include="GameConstants.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AsteroidsSDL.cpp" />
+    <ClCompile Include="cAsteroid.cpp" />
+    <ClCompile Include="cBkGround.cpp" />
+    <ClCompile Include="cBullet.cpp" />
+    <ClCompile Include="cGame.cpp" />
+    <ClCompile Include="cRocket.cpp" />
+    <ClCompile Include="cSDL2WNDManager.cpp" />
+    <ClCompile Include="cSprite.cpp" />
+    <ClCompile Include="cTexture.cpp" />
+    <ClCompile Include="cTextureMgr.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
